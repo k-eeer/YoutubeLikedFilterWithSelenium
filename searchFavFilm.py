@@ -47,10 +47,13 @@ def goToYoutube():
 
 #Find out all the links which mathces your keyword.
 def favFilter():
+	textList=[]
 	for a in driver.find_elements_by_partial_link_text(keywd):
-		b=a.get_attribute('href')
-		if b.find("watch") !=-1:print(b)
-
+		if a not in textList:
+			textList.append(a)
+			b=a.get_attribute('href')
+			if b.find("watch") !=-1:print(b)
+		
 
 loginWithOtherSite()
 goToYoutube()
