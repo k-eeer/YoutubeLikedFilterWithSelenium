@@ -10,7 +10,7 @@ Selenium server 3.141.59<br />
 # description and usage:
 
 $python searchFavFilm.py
-<br />or<br /><br />
+<br /><br />or<br /><br />
 #the URLs will output as a text file, search.txt.<br />
 $python searchFavFilm.py>search.txt
 
