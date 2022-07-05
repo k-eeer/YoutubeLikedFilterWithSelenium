@@ -1,4 +1,4 @@
-# YoutubeLikedFilterWithSelenium-描述及用法:
+# 以關鍵字搜尋youtube"喜歡的影片"-描述及用法:
 在youtube "喜歡的影片"頁面中找出所有符合的影片及連結，解決該頁面沒有另外附搜尋功能，而按過讚的影片又太多的情況。
 
     $python searchFavFilm.py
