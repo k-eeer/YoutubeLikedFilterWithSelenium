@@ -8,7 +8,7 @@
 
 Ubuntu 18.04<br />
 geckodriver 0.26.0<br />
-Selenium server 3.141.59<br />
+Selenium  3.141.59<br />
 <br /><br /><br />
 
 
